@@ -1,11 +1,12 @@
 {
-  "dataset_label": "2025 historical results through Azerbaijan \u2014 reconstructed pre-Singapore snapshot",
-  "as_of": "2025-10-02",
+  "dataset_label": "Montreal 2026 pre-race dataset — results through Miami, May 3, 2026",
+  "as_of": "2026-05-18",
   "target": {
-    "name": "Singapore Grand Prix",
-    "date": "2025-10-05",
-    "circuit": "marina_bay",
-    "round": 18
+    "name": "Canadian Grand Prix",
+    "date": "2026-05-24",
+    "circuit": "villeneuve",
+    "season": 2026,
+    "round": 5
   },
   "races": [
     {
@@ -53,7 +54,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 7
         },
@@ -135,7 +136,8 @@
           "team": "rb",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 2,
@@ -230,7 +232,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 15
         },
@@ -264,7 +266,8 @@
           "team": "alpine",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 3,
@@ -365,7 +368,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 16
         },
@@ -393,7 +396,8 @@
           "team": "aston_martin",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 4,
@@ -518,11 +522,12 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 5,
@@ -617,7 +622,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 15
         },
@@ -651,7 +656,8 @@
           "team": "alpine",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 6,
@@ -740,7 +746,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 14
         },
@@ -780,7 +786,8 @@
           "team": "alpine",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 7,
@@ -857,7 +864,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 12
         },
@@ -909,7 +916,8 @@
           "team": "haas",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 8,
@@ -1010,7 +1018,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 16
         },
@@ -1038,7 +1046,8 @@
           "team": "alpine",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 9,
@@ -1073,7 +1082,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 5
         },
@@ -1161,7 +1170,8 @@
           "team": "williams",
           "finish": 19
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 10,
@@ -1214,7 +1224,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 8
         },
@@ -1290,7 +1300,8 @@
           "team": "williams",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 11,
@@ -1349,7 +1360,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 9
         },
@@ -1419,7 +1430,8 @@
           "team": "williams",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 12,
@@ -1442,7 +1454,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 3
         },
@@ -1548,7 +1560,8 @@
           "team": "alpine",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 13,
@@ -1625,7 +1638,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 12
         },
@@ -1677,7 +1690,8 @@
           "team": "rb",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 14,
@@ -1760,7 +1774,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 13
         },
@@ -1806,7 +1820,8 @@
           "team": "haas",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 15,
@@ -1895,7 +1910,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 14
         },
@@ -1935,7 +1950,8 @@
           "team": "ferrari",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 16,
@@ -2060,11 +2076,12 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 20
         }
-      ]
+      ],
+      "season": 2025
     },
     {
       "round": 17,
@@ -2165,7 +2182,7 @@
         },
         {
           "driver": "hulkenberg",
-          "name": "Nico H\u00fclkenberg",
+          "name": "Nico Hülkenberg",
           "team": "sauber",
           "finish": 16
         },
@@ -2193,39 +2210,1254 @@
           "team": "mclaren",
           "finish": 20
         }
+      ],
+      "season": 2025
+    },
+    {
+      "name": "Singapore Grand Prix",
+      "date": "2025-10-05",
+      "season": 2025,
+      "round": 18,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/18/results/?limit=100",
+      "results": [
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 1
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 2
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 4
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 9
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 10
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 11
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 12
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 13
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 14
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 15
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 16
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 17
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 18
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "United States Grand Prix",
+      "date": "2025-10-19",
+      "season": 2025,
+      "round": 19,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/19/results/?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 5
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 7
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 8
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 9
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 10
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 11
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 12
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 13
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 14
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 15
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 16
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 17
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 18
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "Mexico City Grand Prix",
+      "date": "2025-10-26",
+      "season": 2025,
+      "round": 20,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/20/results/?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 2
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 3
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 4
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 5
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 7
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 9
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 10
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 11
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 12
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 13
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 14
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 16
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 17
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 18
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 19
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "São Paulo Grand Prix",
+      "date": "2025-11-09",
+      "season": 2025,
+      "round": 21,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/21/results/?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 2
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 3
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 5
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 6
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 7
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 8
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 9
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 10
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 11
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 12
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 13
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 14
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 16
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 17
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 18
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 19
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "Las Vegas Grand Prix",
+      "date": "2025-11-23",
+      "season": 2025,
+      "round": 22,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/22/results/?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 2
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 5
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 6
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 7
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 9
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 10
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 11
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 12
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 14
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 16
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 17
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 18
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 19
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "Qatar Grand Prix",
+      "date": "2025-11-30",
+      "season": 2025,
+      "round": 23,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/23/results/?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 3
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 4
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 9
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 10
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 11
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 12
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 13
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 14
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 15
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 16
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 18
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 19
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "Abu Dhabi Grand Prix",
+      "date": "2025-12-07",
+      "season": 2025,
+      "round": 24,
+      "source": "https://api.jolpi.ca/ergast/f1/2025/24/results/?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 6
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 7
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "sauber",
+          "finish": 9
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 10
+        },
+        {
+          "driver": "bortoleto",
+          "team": "sauber",
+          "finish": 11
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 12
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 13
+        },
+        {
+          "driver": "tsunoda",
+          "team": "red_bull",
+          "finish": 14
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 15
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 16
+        },
+        {
+          "driver": "hadjar",
+          "team": "rb",
+          "finish": 17
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 18
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "name": "Australian Grand Prix",
+      "date": "2026-03-08",
+      "season": 2026,
+      "round": 1,
+      "source": "https://api.jolpi.ca/ergast/f1/2026/1/results/?limit=100",
+      "results": [
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 1
+        },
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 5
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 6
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 7
+        },
+        {
+          "driver": "arvid_lindblad",
+          "team": "rb",
+          "finish": 8
+        },
+        {
+          "driver": "bortoleto",
+          "team": "audi",
+          "finish": 9
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 10
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 11
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 12
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 13
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 14
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 15
+        },
+        {
+          "driver": "perez",
+          "team": "cadillac",
+          "finish": 16
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 18
+        },
+        {
+          "driver": "bottas",
+          "team": "cadillac",
+          "finish": 19
+        },
+        {
+          "driver": "hadjar",
+          "team": "red_bull",
+          "finish": 20
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 21
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "audi",
+          "finish": 22
+        }
+      ]
+    },
+    {
+      "name": "Chinese Grand Prix",
+      "date": "2026-03-15",
+      "season": 2026,
+      "round": 2,
+      "source": "https://api.jolpi.ca/ergast/f1/2026/2/results/?limit=100",
+      "results": [
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 1
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 2
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 5
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 6
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 7
+        },
+        {
+          "driver": "hadjar",
+          "team": "red_bull",
+          "finish": 8
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 9
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 10
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "audi",
+          "finish": 11
+        },
+        {
+          "driver": "arvid_lindblad",
+          "team": "rb",
+          "finish": 12
+        },
+        {
+          "driver": "bottas",
+          "team": "cadillac",
+          "finish": 13
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 14
+        },
+        {
+          "driver": "perez",
+          "team": "cadillac",
+          "finish": 15
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 16
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 18
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 19
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 20
+        },
+        {
+          "driver": "bortoleto",
+          "team": "audi",
+          "finish": 21
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 22
+        }
+      ]
+    },
+    {
+      "name": "Japanese Grand Prix",
+      "date": "2026-03-29",
+      "season": 2026,
+      "round": 3,
+      "source": "https://api.jolpi.ca/ergast/f1/2026/3/results/?limit=100",
+      "results": [
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 1
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 5
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 7
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 8
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 9
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 10
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "audi",
+          "finish": 11
+        },
+        {
+          "driver": "hadjar",
+          "team": "red_bull",
+          "finish": 12
+        },
+        {
+          "driver": "bortoleto",
+          "team": "audi",
+          "finish": 13
+        },
+        {
+          "driver": "arvid_lindblad",
+          "team": "rb",
+          "finish": 14
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 15
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 16
+        },
+        {
+          "driver": "perez",
+          "team": "cadillac",
+          "finish": 17
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 18
+        },
+        {
+          "driver": "bottas",
+          "team": "cadillac",
+          "finish": 19
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 20
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 21
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 22
+        }
+      ]
+    },
+    {
+      "name": "Miami Grand Prix",
+      "date": "2026-05-03",
+      "season": 2026,
+      "round": 4,
+      "source": "https://api.jolpi.ca/ergast/f1/2026/4/results/?limit=100",
+      "results": [
+        {
+          "driver": "antonelli",
+          "team": "mercedes",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "piastri",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "russell",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "max_verstappen",
+          "team": "red_bull",
+          "finish": 5
+        },
+        {
+          "driver": "hamilton",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "colapinto",
+          "team": "alpine",
+          "finish": 7
+        },
+        {
+          "driver": "leclerc",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "sainz",
+          "team": "williams",
+          "finish": 9
+        },
+        {
+          "driver": "albon",
+          "team": "williams",
+          "finish": 10
+        },
+        {
+          "driver": "bearman",
+          "team": "haas",
+          "finish": 11
+        },
+        {
+          "driver": "bortoleto",
+          "team": "audi",
+          "finish": 12
+        },
+        {
+          "driver": "ocon",
+          "team": "haas",
+          "finish": 13
+        },
+        {
+          "driver": "arvid_lindblad",
+          "team": "rb",
+          "finish": 14
+        },
+        {
+          "driver": "alonso",
+          "team": "aston_martin",
+          "finish": 15
+        },
+        {
+          "driver": "perez",
+          "team": "cadillac",
+          "finish": 16
+        },
+        {
+          "driver": "stroll",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "bottas",
+          "team": "cadillac",
+          "finish": 18
+        },
+        {
+          "driver": "hulkenberg",
+          "team": "audi",
+          "finish": 19
+        },
+        {
+          "driver": "lawson",
+          "team": "rb",
+          "finish": 20
+        },
+        {
+          "driver": "gasly",
+          "team": "alpine",
+          "finish": 21
+        },
+        {
+          "driver": "hadjar",
+          "team": "red_bull",
+          "finish": 22
+        }
       ]
     }
   ],
   "entrants": [
     {
-      "driver": "max_verstappen",
-      "name": "Max Verstappen",
-      "team": "red_bull"
-    },
-    {
-      "driver": "russell",
-      "name": "George Russell",
-      "team": "mercedes"
-    },
-    {
-      "driver": "sainz",
-      "name": "Carlos Sainz",
-      "team": "williams"
-    },
-    {
       "driver": "antonelli",
       "name": "Andrea Kimi Antonelli",
       "team": "mercedes"
-    },
-    {
-      "driver": "lawson",
-      "name": "Liam Lawson",
-      "team": "rb"
-    },
-    {
-      "driver": "tsunoda",
-      "name": "Yuki Tsunoda",
-      "team": "red_bull"
     },
     {
       "driver": "norris",
@@ -2233,59 +3465,24 @@
       "team": "mclaren"
     },
     {
+      "driver": "piastri",
+      "name": "Oscar Piastri",
+      "team": "mclaren"
+    },
+    {
+      "driver": "russell",
+      "name": "George Russell",
+      "team": "mercedes"
+    },
+    {
+      "driver": "max_verstappen",
+      "name": "Max Verstappen",
+      "team": "red_bull"
+    },
+    {
       "driver": "hamilton",
       "name": "Lewis Hamilton",
       "team": "ferrari"
-    },
-    {
-      "driver": "leclerc",
-      "name": "Charles Leclerc",
-      "team": "ferrari"
-    },
-    {
-      "driver": "hadjar",
-      "name": "Isack Hadjar",
-      "team": "rb"
-    },
-    {
-      "driver": "bortoleto",
-      "name": "Gabriel Bortoleto",
-      "team": "sauber"
-    },
-    {
-      "driver": "bearman",
-      "name": "Oliver Bearman",
-      "team": "haas"
-    },
-    {
-      "driver": "albon",
-      "name": "Alexander Albon",
-      "team": "williams"
-    },
-    {
-      "driver": "ocon",
-      "name": "Esteban Ocon",
-      "team": "haas"
-    },
-    {
-      "driver": "alonso",
-      "name": "Fernando Alonso",
-      "team": "aston_martin"
-    },
-    {
-      "driver": "hulkenberg",
-      "name": "Nico H\u00fclkenberg",
-      "team": "sauber"
-    },
-    {
-      "driver": "stroll",
-      "name": "Lance Stroll",
-      "team": "aston_martin"
-    },
-    {
-      "driver": "gasly",
-      "name": "Pierre Gasly",
-      "team": "alpine"
     },
     {
       "driver": "colapinto",
@@ -2293,16 +3490,87 @@
       "team": "alpine"
     },
     {
-      "driver": "piastri",
-      "name": "Oscar Piastri",
-      "team": "mclaren"
+      "driver": "leclerc",
+      "name": "Charles Leclerc",
+      "team": "ferrari"
+    },
+    {
+      "driver": "sainz",
+      "name": "Carlos Sainz",
+      "team": "williams"
+    },
+    {
+      "driver": "albon",
+      "name": "Alexander Albon",
+      "team": "williams"
+    },
+    {
+      "driver": "bearman",
+      "name": "Oliver Bearman",
+      "team": "haas"
+    },
+    {
+      "driver": "bortoleto",
+      "name": "Gabriel Bortoleto",
+      "team": "audi"
+    },
+    {
+      "driver": "ocon",
+      "name": "Esteban Ocon",
+      "team": "haas"
+    },
+    {
+      "driver": "arvid_lindblad",
+      "name": "Arvid Lindblad",
+      "team": "rb"
+    },
+    {
+      "driver": "alonso",
+      "name": "Fernando Alonso",
+      "team": "aston_martin"
+    },
+    {
+      "driver": "perez",
+      "name": "Sergio Pérez",
+      "team": "cadillac"
+    },
+    {
+      "driver": "stroll",
+      "name": "Lance Stroll",
+      "team": "aston_martin"
+    },
+    {
+      "driver": "bottas",
+      "name": "Valtteri Bottas",
+      "team": "cadillac"
+    },
+    {
+      "driver": "hulkenberg",
+      "name": "Nico Hülkenberg",
+      "team": "audi"
+    },
+    {
+      "driver": "lawson",
+      "name": "Liam Lawson",
+      "team": "rb"
+    },
+    {
+      "driver": "gasly",
+      "name": "Pierre Gasly",
+      "team": "alpine"
+    },
+    {
+      "driver": "hadjar",
+      "name": "Isack Hadjar",
+      "team": "red_bull"
     }
   ],
   "simulations": 5000,
   "seed": 42,
   "provenance": {
     "provider": "Jolpica-F1 (Ergast-compatible API)",
-    "retrieved_at": "2026-09-25T02:25:28.907449+00:00",
-    "cutoff_policy": "Only rounds 1\u201317 requested. No target or later race data fetched. Current historical records, not an archived 2025 data vintage. Entrants assumed unchanged from Azerbaijan."
+    "retrieved_at": "2026-09-25T20:37:04.740489+00:00",
+    "cutoff_policy": "Race dates strictly before May 18, 2026. Includes all 24 races of 2025 and the first four races of 2026. No Canadian GP weekend inputs or results. Current historical records, not an archived database snapshot.",
+    "entrants": "Driver/team list carried forward from Miami 2026; no target-race results used."
   }
 }

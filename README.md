@@ -1,62 +1,43 @@
-# RaceLab — Singapore Grand Prix prediction lab
+# RaceLab — Montreal 2026 race predictor
 
-A historical pre-weekend forecast for the **Singapore Grand Prix on October 5, 2025**, with an **as-of cutoff of October 2, 2025**. It learns from earlier driver/team results, then simulates finishing orders. The target and cutoff were selected during reconstruction to fit the owner's October 2025 project date; they are not proof of a prediction published in 2025.
+Forecast finishing order, win probability and podium probability for the **Canadian Grand Prix in Montreal on May 24, 2026**, using a **May 18, 2026 data cutoff**.
 
-## Project history
+## Run
 
-The original project was completed in programming club in **October 2025**, according to the project owner's recollection. The original files were lost. This repository contains a new implementation reconstructed with AI assistance in **September 2026**, and its commits record the actual reconstruction/upload dates. It is not a recovery of the original source or an exact copy of the reel's code.
-
-## Run locally
-
-Requires Python 3.9 or later. No external packages, API keys, or network access are needed.
+Python 3.9 or later; no external packages or API keys.
 
 ```sh
 python3 app.py
 ```
 
-Open http://127.0.0.1:8000. For a second project running at the same time, use `python3 app.py --port 8001`. The server binds only to your computer.
+Open http://127.0.0.1:8000 and select **Run analysis**. You can edit or import a dataset and export results as JSON. Use `python3 app.py --port 8001` to choose another port.
 
-1. Click **Run analysis** to evaluate the historical dataset.
-2. Edit the JSON input or load your own JSON file.
-3. Inspect metrics, the results table and model notes.
-4. Export the complete result as JSON.
+## Included data
 
-## Historical dataset and cutoff
+`example.json` contains all **24 races from 2025** and the **first four races of 2026**: Australia, China, Japan and Miami. The latest included race is Miami on May 3, 2026. No Montreal practice, qualifying, sprint, grid or race results enter the model. The entrant list is carried forward from Miami.
 
-`example.json` includes rounds 1–17 of the 2025 championship: Australia through Azerbaijan (September 21). There are 339 recorded driver results. **No Singapore result, practice, qualifying, grid, or later race is included.** The retrieval script requests only those round endpoints, rather than downloading the full season and retaining later results.
+Race results come from [Jolpica-F1](https://github.com/jolpica/jolpica-f1); individual source URLs are included in the dataset. The target date is listed on the [official Canadian GP page](https://www.formula1.com/en/racing/2026/canada). `DATA_PROVENANCE.json` records retrieval time, the cutoff policy and a SHA-256 checksum. These are current historical records, which may include later corrections; the cutoff describes the race dates allowed into the analysis.
 
-Sources: [Jolpica-F1](https://github.com/jolpica/jolpica-f1), [results endpoint documentation](https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/results.md), and [official 2025 calendar](https://www.formula1.com/en/racing/2025). Each race carries its source URL. Retrieval time and SHA-256 fingerprints are in `DATA_PROVENANCE.json`.
+## Model
 
-These are current historical database records, not a preserved October 2025 database snapshot. Later retrospective corrections to earlier results cannot be ruled out. This project enforces event-date exclusion and past-only features; it does not claim perfect historical data-vintage reproduction. The target entrant list is carried forward from Azerbaijan, an explicit modeling assumption.
+Ridge regression uses three past-only features: a driver's mean finish over five starts, their podium rate over five starts and their constructor's mean finish over ten car results. Three races initialize the history. Standardization is fitted only to the training rows.
 
-## Input contract
+Whole races are held out chronologically for evaluation against a recent-form baseline. The model then refits on all permitted results. Seeded Monte Carlo simulations add Gaussian noise based on held-out errors and estimate win and podium frequencies.
 
-- `as_of`: ISO date before the target race. Historical races must be strictly earlier.
-- `target`: race name, ISO date, round and circuit.
-- `races`: 8–100 complete races in ascending date order, all before the cutoff and target round. Each contains `name`, `date`, `round`, and `results` (driver ID, team ID, unique integer finish).
-- `entrants`: 3–30 unique driver IDs with names and teams. Target finish, grid, practice and points fields are rejected.
+The 2026 regulation changes can make 2025 form less representative. New drivers or constructor IDs receive neutral defaults until observations are available; constructor IDs are not merged across name changes. Weather, circuit effects, pit stops and retirements are not explicitly modeled. Simulation probabilities are uncalibrated estimates, not betting odds.
+
+## Dataset format
+
+- `as_of`: ISO cutoff date strictly before the target race.
+- `target`: race name, date, circuit, season and round.
+- `races`: 8–100 races ordered by date, each with season, round and driver/team finishing positions. All must precede the cutoff and target season/round.
+- `entrants`: unique driver IDs, names and teams, without target-race outcomes or weekend features.
 - `simulations`: 100–50,000; `seed`: integer.
 
-## Method and limits
+## Code and checks
 
-Features are the driver's mean finish over the previous five starts, constructor mean finish over the previous ten car results, and driver's podium rate over the previous five starts. A driver with no prior history uses neutral values. Three races initialize the rolling history. For each training race, features are derived only from races before that race; no current-race result enters its features.
-
-Ridge regression uses a fixed penalty of 2 and standardization fitted on training rows only. Whole race groups are held out chronologically. During validation, feature history updates after each earlier completed race, while fitted coefficients remain fixed. The final forecast refits on all allowed historical rows. A recent-form baseline is reported alongside model MAE.
-
-Monte Carlo simulations add independent Gaussian noise to finishing scores, with scale estimated from held-out errors. Win/podium frequencies depend on this approximation; they are not calibrated betting odds. Sampling standard error is not total model uncertainty. Circuit effects, weather, pit stops and retirements are not explicitly modeled. There is no live data feed or actual race-outcome comparison for the target.
-
-The local server accepts JSON up to 1 MB, validates input, and does not persist imported data. `engine.py` owns temporal validation and features; `models.py` owns the numerical solver. `test_engine.py` tests date exclusions, feature leakage, chronological holdout and probability conservation.
-
-## Verify
+`engine.py` handles validation, features and simulations; `models.py` implements ridge regression; `app.py` serves the local interface. `POST /api/run` accepts the dataset JSON and returns metrics, rows and diagnostics. The server binds to your computer and does not save imported data.
 
 ```sh
 python3 -m unittest -v
 ```
-
-## API
-
-`POST /api/run` accepts the same JSON as the editor and returns `metrics`, `series`, `rows`, and `details`. Errors return HTTP 400 with an `error` message. This is a local educational server, not an Internet-facing production service.
-
-## Historical availability of the method
-
-Ridge regression was published by Hoerl and Kennard in 1970 ([original paper](https://doi.org/10.1080/00401706.1970.10488634)). This reconstruction fits coefficients from the supplied historical data; it does not use a pretrained modern foundation model. The implementation uses only Python 3.9 standard-library functionality.

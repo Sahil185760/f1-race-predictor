@@ -10,10 +10,10 @@ class Tests(unittest.TestCase):
   self.assertAlmostEqual(sum(r['podium_probability'] for r in out['rows']),3)
   self.assertEqual(out,engine.run(self.data))
  def test_future_race_rejected(self):
-  self.data['races'][-1]['date']='2025-10-06'
+  self.data['races'][-1]['date']='2026-05-25'
   with self.assertRaises(ValueError):engine.run(self.data)
  def test_target_race_rejected(self):
-  self.data['races'][-1]['round']=18
+  self.data['races'][-1]['round']=5
   with self.assertRaises(ValueError):engine.run(self.data)
  def test_target_outcome_rejected(self):
   self.data['entrants'][0]['finish']=1
@@ -27,11 +27,17 @@ class Tests(unittest.TestCase):
    if a['date']<=changed[10]['date']:self.assertEqual(a['x'],b['x'])
  def test_chronological_holdout(self):
   out=engine.run(self.data)
-  self.assertEqual(out['details']['held_out_races'],['Belgian Grand Prix','Hungarian Grand Prix','Dutch Grand Prix','Italian Grand Prix','Azerbaijan Grand Prix'])
-  self.assertEqual(out['details']['latest_included_date'],'2025-09-21')
+  self.assertEqual(out['details']['held_out_races'],['Las Vegas Grand Prix','Qatar Grand Prix','Abu Dhabi Grand Prix','Australian Grand Prix','Chinese Grand Prix','Japanese Grand Prix','Miami Grand Prix'])
+  self.assertEqual(out['details']['latest_included_date'],'2026-05-03')
  def test_duplicate_driver_rejected(self):
   self.data['entrants'][1]['driver']=self.data['entrants'][0]['driver']
   with self.assertRaises(ValueError):engine.run(self.data)
  def test_snapshot_cutoff(self):
-  self.assertTrue(all(r['date']<'2025-10-02' and r['round']<18 for r in self.data['races']))
+  self.assertTrue(all(r['date']<'2026-05-18' and (r['season'],r['round'])<(2026,5) for r in self.data['races']))
+ def test_prior_season_late_round_accepted(self):
+  self.assertTrue(any(r['round']>5 and r['season']==2025 for r in self.data['races']))
+  engine.validate(self.data)
+ def test_season_date_mismatch_rejected(self):
+  self.data['races'][-1]['season']=2025
+  with self.assertRaises(ValueError):engine.run(self.data)
 if __name__=='__main__':unittest.main()

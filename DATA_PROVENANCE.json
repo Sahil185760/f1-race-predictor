@@ -1,10 +1,10 @@
 {
   "provider": "Jolpica-F1 (Ergast-compatible API)",
-  "retrieved_at": "2026-09-25T02:25:28.907449+00:00",
-  "cutoff_policy": "Only rounds 1\u201317 requested. No target or later race data fetched. Current historical records, not an archived 2025 data vintage. Entrants assumed unchanged from Azerbaijan.",
-  "as_of": "2025-10-02",
+  "retrieved_at": "2026-09-25T20:37:04.740489+00:00",
+  "cutoff_policy": "Race dates strictly before May 18, 2026. Includes all 24 races of 2025 and the first four races of 2026. No Canadian GP weekend inputs or results. Current historical records, not an archived database snapshot.",
+  "entrants": "Driver/team list carried forward from Miami 2026; no target-race results used.",
+  "as_of": "2026-05-18",
   "file": "example.json",
-  "sha256": "b8ca85e9503f56bdc2c7bcbc61e8cd52333ab9af8930f0d50e8e3be2d5991f12",
-  "model_method": "Ridge regression; Hoerl and Kennard (1970)",
-  "model_source": "https://doi.org/10.1080/00401706.1970.10488634"
+  "sha256": "0105377e2c27113a5d1ba579b3758d37e6e48c446b4a647e2e24bf6e89708fb7",
+  "calendar_source": "https://www.formula1.com/en/racing/2026/canada"
 }

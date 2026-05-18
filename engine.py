@@ -24,7 +24,10 @@ def validate(data):
         day=iso(race['date'])
         if day>=cutoff:raise ValueError('Historical race on or after cutoff rejected: '+race['name'])
         if previous and day<=previous:raise ValueError('Races must be unique and ordered oldest first')
-        if race['round']>=target['round']:raise ValueError('Target or later round must not be included')
+        season=int(race.get('season',day.year))
+        target_season=int(target.get('season',target_date.year))
+        if season!=day.year or target_season!=target_date.year:raise ValueError('Season must match race date')
+        if (season,race['round'])>=(target_season,target['round']):raise ValueError('Target or later round must not be included')
         previous=day
         key=(day,race['round'])
         if key in seen:raise ValueError('Duplicate race')

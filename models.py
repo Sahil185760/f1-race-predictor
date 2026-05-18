@@ -1,4 +1,4 @@
-"""Small, dependency-free numerical helpers used by the reconstruction demos."""
+"""Small, dependency-free numerical helpers for ridge regression."""
 import math
 import statistics as st
 

@@ -1,8 +1,7 @@
 {
   "brand": "RaceLab",
-  "title": "Singapore GP prediction lab",
+  "title": "Montreal 2026 race predictor",
   "kind": "f1",
-  "original_completion": "October 2025",
-  "subtitle": "Train on past observations. Inspect the uncertainty.",
-  "reconstruction": "September 2026"
+  "as_of": "May 18, 2026",
+  "subtitle": "Earlier race results. Simulated finishing orders."
 }
