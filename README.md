@@ -1,4 +1,4 @@
-# RaceLab — Dutch Grand Prix prediction lab
+# RaceLab — Singapore Grand Prix prediction lab
 
 A historical pre-weekend forecast for the **Singapore Grand Prix on October 5, 2025**, with an **as-of cutoff of October 2, 2025**. It learns from earlier driver/team results, then simulates finishing orders. The target and cutoff were selected during reconstruction to fit the owner's October 2025 project date; they are not proof of a prediction published in 2025.
 
@@ -25,7 +25,7 @@ Open http://127.0.0.1:8000. For a second project running at the same time, use `
 
 ## Historical dataset and cutoff
 
-`example.json` includes rounds 1–17 of the 2025 championship: Australia through Azerbaijan (September 21). There are 339 classified driver results. **No Singapore result, practice, qualifying, grid, or later race is included.** The retrieval script requests only those round endpoints, rather than downloading the full season and retaining later results.
+`example.json` includes rounds 1–17 of the 2025 championship: Australia through Azerbaijan (September 21). There are 339 recorded driver results. **No Singapore result, practice, qualifying, grid, or later race is included.** The retrieval script requests only those round endpoints, rather than downloading the full season and retaining later results.
 
 Sources: [Jolpica-F1](https://github.com/jolpica/jolpica-f1), [results endpoint documentation](https://github.com/jolpica/jolpica-f1/blob/main/docs/endpoints/results.md), and [official 2025 calendar](https://www.formula1.com/en/racing/2025). Each race carries its source URL. Retrieval time and SHA-256 fingerprints are in `DATA_PROVENANCE.json`.
 
