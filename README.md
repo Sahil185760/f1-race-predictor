@@ -6,8 +6,6 @@ A historical pre-weekend forecast for the **Singapore Grand Prix on October 5, 2
 
 The original project was completed in programming club in **October 2025**, according to the project owner's recollection. The original files were lost. This repository contains a new implementation reconstructed with AI assistance in **September 2026**, and its commits record the actual reconstruction/upload dates. It is not a recovery of the original source or an exact copy of the reel's code.
 
-Reference supplied for reconstruction: [Instagram reel](https://www.instagram.com/reel/DcW3TRiIhFi/). Credit to the reference creator for the demonstration concept; no video assets or creator source code are redistributed. Specific original club roles, results and implementation details have not been reconstructed as historical claims.
-
 ## Run locally
 
 Requires Python 3.9 or later. No external packages, API keys, or network access are needed.
