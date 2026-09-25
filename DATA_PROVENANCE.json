@@ -1,0 +1,10 @@
+{
+  "provider": "Jolpica-F1 (Ergast-compatible API)",
+  "retrieved_at": "2026-09-25T02:25:28.907449+00:00",
+  "cutoff_policy": "Only rounds 1\u201317 requested. No target or later race data fetched. Current historical records, not an archived 2025 data vintage. Entrants assumed unchanged from Azerbaijan.",
+  "as_of": "2025-10-02",
+  "file": "example.json",
+  "sha256": "b8ca85e9503f56bdc2c7bcbc61e8cd52333ab9af8930f0d50e8e3be2d5991f12",
+  "model_method": "Ridge regression; Hoerl and Kennard (1970)",
+  "model_source": "https://doi.org/10.1080/00401706.1970.10488634"
+}

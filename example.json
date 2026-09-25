@@ -1,0 +1,2308 @@
+{
+  "dataset_label": "2025 historical results through Azerbaijan \u2014 reconstructed pre-Singapore snapshot",
+  "as_of": "2025-10-02",
+  "target": {
+    "name": "Singapore Grand Prix",
+    "date": "2025-10-05",
+    "circuit": "marina_bay",
+    "round": 18
+  },
+  "races": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "date": "2025-03-16",
+      "circuit": "albert_park",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/1/results.json?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 2
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 3
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 5
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 6
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 7
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 9
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 10
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 11
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "rb",
+          "finish": 12
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 13
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 14
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "red_bull",
+          "finish": 15
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 16
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 18
+        },
+        {
+          "driver": "doohan",
+          "name": "Jack Doohan",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Chinese Grand Prix",
+      "date": "2025-03-23",
+      "circuit": "shanghai",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/2/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 3
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 4
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 5
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 7
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 8
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 9
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 10
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 11
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "red_bull",
+          "finish": 12
+        },
+        {
+          "driver": "doohan",
+          "name": "Jack Doohan",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 14
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 15
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "rb",
+          "finish": 16
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 18
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 19
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "name": "Japanese Grand Prix",
+      "date": "2025-04-06",
+      "circuit": "suzuka",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/3/results.json?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 7
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 8
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 9
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 10
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 11
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 12
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 14
+        },
+        {
+          "driver": "doohan",
+          "name": "Jack Doohan",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 16
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 17
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 18
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 19
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "name": "Bahrain Grand Prix",
+      "date": "2025-04-13",
+      "circuit": "bahrain",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/4/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 2
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 5
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 6
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 7
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 8
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 9
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 10
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 11
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 12
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 13
+        },
+        {
+          "driver": "doohan",
+          "name": "Jack Doohan",
+          "team": "alpine",
+          "finish": 14
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 15
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 16
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 18
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 19
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "name": "Saudi Arabian Grand Prix",
+      "date": "2025-04-20",
+      "circuit": "jeddah",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/5/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 4
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 7
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 8
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 9
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 10
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 11
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 12
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 13
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 14
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 15
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 16
+        },
+        {
+          "driver": "doohan",
+          "name": "Jack Doohan",
+          "team": "alpine",
+          "finish": 17
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 18
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 19
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "name": "Miami Grand Prix",
+      "date": "2025-05-04",
+      "circuit": "miami",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/6/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 3
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 4
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 5
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 6
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 7
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 9
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 10
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 11
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 12
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 14
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 15
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 16
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 17
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 18
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 19
+        },
+        {
+          "driver": "doohan",
+          "name": "Jack Doohan",
+          "team": "alpine",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "name": "Emilia Romagna Grand Prix",
+      "date": "2025-05-18",
+      "circuit": "imola",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/7/results.json?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 5
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 7
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 8
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 9
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 10
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 11
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 12
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 14
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 15
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 16
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 17
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 18
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 19
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "name": "Monaco Grand Prix",
+      "date": "2025-05-25",
+      "circuit": "monaco",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/8/results.json?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 2
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 4
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 5
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 6
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 7
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 8
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 9
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 10
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 11
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 12
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 14
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 15
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 16
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 17
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 18
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 19
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "name": "Spanish Grand Prix",
+      "date": "2025-06-01",
+      "circuit": "catalunya",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/9/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 5
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 7
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 8
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 9
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 10
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 11
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 12
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 13
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 14
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 16
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 17
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 18
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 19
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "name": "Canadian Grand Prix",
+      "date": "2025-06-15",
+      "circuit": "villeneuve",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/10/results.json?limit=100",
+      "results": [
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 1
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 2
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 3
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 4
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 5
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 8
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 9
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 10
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 11
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 12
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 14
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 16
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 18
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 19
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "name": "Austrian Grand Prix",
+      "date": "2025-06-29",
+      "circuit": "red_bull_ring",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/11/results.json?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 6
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 8
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 9
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 10
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 11
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 12
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 13
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 14
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 15
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 16
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 17
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 18
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 19
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "name": "British Grand Prix",
+      "date": "2025-07-06",
+      "circuit": "silverstone",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/12/results.json?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 3
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 5
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 6
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 8
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 9
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 10
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 11
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 12
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 13
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 14
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 15
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 16
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 17
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 18
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 19
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "name": "Belgian Grand Prix",
+      "date": "2025-07-27",
+      "circuit": "spa",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/13/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 3
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 4
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 6
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 7
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 8
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 9
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 10
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 11
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 12
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 13
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 14
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 15
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 16
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 18
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "name": "Hungarian Grand Prix",
+      "date": "2025-08-03",
+      "circuit": "hungaroring",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/14/results.json?limit=100",
+      "results": [
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 5
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 6
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 8
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 9
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 10
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 11
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 12
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 13
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 14
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 15
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 16
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 17
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 18
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "name": "Dutch Grand Prix",
+      "date": "2025-08-31",
+      "circuit": "zandvoort",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/15/results.json?limit=100",
+      "results": [
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 1
+        },
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 2
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 3
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 5
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 6
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 7
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 8
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 9
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 10
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 11
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 12
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 13
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 14
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 15
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 16
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 17
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 18
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 19
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 16,
+      "name": "Italian Grand Prix",
+      "date": "2025-09-07",
+      "circuit": "monza",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/16/results.json?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 2
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 3
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 4
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 5
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 6
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 7
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 8
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 9
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 10
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 11
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 12
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 13
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 14
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 15
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 16
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 17
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 18
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 19
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 20
+        }
+      ]
+    },
+    {
+      "round": 17,
+      "name": "Azerbaijan Grand Prix",
+      "date": "2025-09-21",
+      "circuit": "baku",
+      "source": "https://api.jolpi.ca/ergast/f1/2025/17/results.json?limit=100",
+      "results": [
+        {
+          "driver": "max_verstappen",
+          "name": "Max Verstappen",
+          "team": "red_bull",
+          "finish": 1
+        },
+        {
+          "driver": "russell",
+          "name": "George Russell",
+          "team": "mercedes",
+          "finish": 2
+        },
+        {
+          "driver": "sainz",
+          "name": "Carlos Sainz",
+          "team": "williams",
+          "finish": 3
+        },
+        {
+          "driver": "antonelli",
+          "name": "Andrea Kimi Antonelli",
+          "team": "mercedes",
+          "finish": 4
+        },
+        {
+          "driver": "lawson",
+          "name": "Liam Lawson",
+          "team": "rb",
+          "finish": 5
+        },
+        {
+          "driver": "tsunoda",
+          "name": "Yuki Tsunoda",
+          "team": "red_bull",
+          "finish": 6
+        },
+        {
+          "driver": "norris",
+          "name": "Lando Norris",
+          "team": "mclaren",
+          "finish": 7
+        },
+        {
+          "driver": "hamilton",
+          "name": "Lewis Hamilton",
+          "team": "ferrari",
+          "finish": 8
+        },
+        {
+          "driver": "leclerc",
+          "name": "Charles Leclerc",
+          "team": "ferrari",
+          "finish": 9
+        },
+        {
+          "driver": "hadjar",
+          "name": "Isack Hadjar",
+          "team": "rb",
+          "finish": 10
+        },
+        {
+          "driver": "bortoleto",
+          "name": "Gabriel Bortoleto",
+          "team": "sauber",
+          "finish": 11
+        },
+        {
+          "driver": "bearman",
+          "name": "Oliver Bearman",
+          "team": "haas",
+          "finish": 12
+        },
+        {
+          "driver": "albon",
+          "name": "Alexander Albon",
+          "team": "williams",
+          "finish": 13
+        },
+        {
+          "driver": "ocon",
+          "name": "Esteban Ocon",
+          "team": "haas",
+          "finish": 14
+        },
+        {
+          "driver": "alonso",
+          "name": "Fernando Alonso",
+          "team": "aston_martin",
+          "finish": 15
+        },
+        {
+          "driver": "hulkenberg",
+          "name": "Nico H\u00fclkenberg",
+          "team": "sauber",
+          "finish": 16
+        },
+        {
+          "driver": "stroll",
+          "name": "Lance Stroll",
+          "team": "aston_martin",
+          "finish": 17
+        },
+        {
+          "driver": "gasly",
+          "name": "Pierre Gasly",
+          "team": "alpine",
+          "finish": 18
+        },
+        {
+          "driver": "colapinto",
+          "name": "Franco Colapinto",
+          "team": "alpine",
+          "finish": 19
+        },
+        {
+          "driver": "piastri",
+          "name": "Oscar Piastri",
+          "team": "mclaren",
+          "finish": 20
+        }
+      ]
+    }
+  ],
+  "entrants": [
+    {
+      "driver": "max_verstappen",
+      "name": "Max Verstappen",
+      "team": "red_bull"
+    },
+    {
+      "driver": "russell",
+      "name": "George Russell",
+      "team": "mercedes"
+    },
+    {
+      "driver": "sainz",
+      "name": "Carlos Sainz",
+      "team": "williams"
+    },
+    {
+      "driver": "antonelli",
+      "name": "Andrea Kimi Antonelli",
+      "team": "mercedes"
+    },
+    {
+      "driver": "lawson",
+      "name": "Liam Lawson",
+      "team": "rb"
+    },
+    {
+      "driver": "tsunoda",
+      "name": "Yuki Tsunoda",
+      "team": "red_bull"
+    },
+    {
+      "driver": "norris",
+      "name": "Lando Norris",
+      "team": "mclaren"
+    },
+    {
+      "driver": "hamilton",
+      "name": "Lewis Hamilton",
+      "team": "ferrari"
+    },
+    {
+      "driver": "leclerc",
+      "name": "Charles Leclerc",
+      "team": "ferrari"
+    },
+    {
+      "driver": "hadjar",
+      "name": "Isack Hadjar",
+      "team": "rb"
+    },
+    {
+      "driver": "bortoleto",
+      "name": "Gabriel Bortoleto",
+      "team": "sauber"
+    },
+    {
+      "driver": "bearman",
+      "name": "Oliver Bearman",
+      "team": "haas"
+    },
+    {
+      "driver": "albon",
+      "name": "Alexander Albon",
+      "team": "williams"
+    },
+    {
+      "driver": "ocon",
+      "name": "Esteban Ocon",
+      "team": "haas"
+    },
+    {
+      "driver": "alonso",
+      "name": "Fernando Alonso",
+      "team": "aston_martin"
+    },
+    {
+      "driver": "hulkenberg",
+      "name": "Nico H\u00fclkenberg",
+      "team": "sauber"
+    },
+    {
+      "driver": "stroll",
+      "name": "Lance Stroll",
+      "team": "aston_martin"
+    },
+    {
+      "driver": "gasly",
+      "name": "Pierre Gasly",
+      "team": "alpine"
+    },
+    {
+      "driver": "colapinto",
+      "name": "Franco Colapinto",
+      "team": "alpine"
+    },
+    {
+      "driver": "piastri",
+      "name": "Oscar Piastri",
+      "team": "mclaren"
+    }
+  ],
+  "simulations": 5000,
+  "seed": 42,
+  "provenance": {
+    "provider": "Jolpica-F1 (Ergast-compatible API)",
+    "retrieved_at": "2026-09-25T02:25:28.907449+00:00",
+    "cutoff_policy": "Only rounds 1\u201317 requested. No target or later race data fetched. Current historical records, not an archived 2025 data vintage. Entrants assumed unchanged from Azerbaijan."
+  }
+}
