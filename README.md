@@ -1,4 +1,4 @@
-# RaceLab — Montreal 2026 race predictor
+# RaceLab: Montreal 2026 race predictor
 
 Forecast finishing order, win probability and podium probability for the **Canadian Grand Prix in Montreal on May 24, 2026**, using a **May 18, 2026 data cutoff**.
 
